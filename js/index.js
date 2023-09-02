@@ -23,7 +23,8 @@ const handle = async () => {
       DrawingContainer.innerHTML = "";
       const div = document.createElement('div');
       div.innerHTML = `
-        <img className="h-[200px] w-[300px]" src='../image/Icon.png' />
+        <img className="h-[200px] w-[300px] " src='../image/Icon.png' />
+        <p class="font-bold text-2xl"> Oops!! Sorry, There is no content here</p>
       `;
       DrawingContainer.appendChild(div);
     } else {
